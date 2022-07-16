@@ -4,6 +4,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-btn-color: #ffffff;
+  --background-btn-color: #2196f3;
 }
 body {
   background-color: var(--background-color);
@@ -101,7 +102,29 @@ background: #E5E5E5;*/
 .header-nav .header-tel:hover,
 .header-nav .header-tel:focus {
   color: var(--accent-color);
-/*
-.header-nav .header-email:current {
-  color: var(--accent-color);
-}*/
+}
+.main {
+  background-color: #2f303a;
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.main-btn {
+  background: var(--background-btn-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-btn-color);
+}
