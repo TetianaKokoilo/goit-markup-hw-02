@@ -1,0 +1,107 @@
+:root {
+  --background-color: #ffffff;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-btn-color: #ffffff;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*hover color
+color nav #212121
+accent studio #2196F3
+color email tel #757575
+color webstudio #000000
+color accent webstudio #2196F3*/
+
+/*main color
+color h1 #FFFFFF
+accent buton #2196F3
+primary-bnt-color #FFFFFF
+background-color #2F303A
+background-color-first-secrion #2F303A
+second-color #757575
+background-color-third-secrion #F5F4FA*/
+
+/*footer color
+color webstudio #FFFFFF
+color accent webstudio #2196F3
+color email tel #FFFFFF
+/*----color----
+background: #E5E5E5;*/
+.header {
+  background-color: #ffffff;
+}
+.header-web {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9px;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.header-studio {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.header-list .header-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-list .header-item:hover,
+.header-list .header-item:focus {
+  color: var(--accent-color);
+}
+.header-item.color {
+  color: var(--accent-color);
+}
+.header-email,
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.14;
+  color: var(--primary-text-color);
+}
+.header-nav .header-email:hover,
+.header-nav .header-email:focus {
+  color: var(--accent-color);
+}
+.header-nav .header-tel:hover,
+.header-nav .header-tel:focus {
+  color: var(--accent-color);
+/*
+.header-nav .header-email:current {
+  color: var(--accent-color);
+}*/
