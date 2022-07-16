@@ -83,7 +83,7 @@ background: #E5E5E5;*/
 .header-list .header-item:focus {
   color: var(--accent-color);
 }
-.header-item.color {
+.header-item.current {
   color: var(--accent-color);
 }
 .header-email,
