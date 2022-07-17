@@ -171,3 +171,21 @@ background: #E5E5E5;*/
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+/* button potfolio*/
+.button-list {
+  color: #212121;
+}
+.button-item {
+  background-color: #f5f4fa;
+  border: 0;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.button-item.primary {
+  background-color: var(--background-btn-color);
+  color: var(--primary-btn-color);
+}
