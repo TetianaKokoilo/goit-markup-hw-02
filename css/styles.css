@@ -11,6 +11,7 @@ body {
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-weight: 400;
 }
 .list {
   list-style: none;
@@ -30,28 +31,6 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/*hover color
-color nav #212121
-accent studio #2196F3
-color email tel #757575
-color webstudio #000000
-color accent webstudio #2196F3*/
-
-/*main color
-color h1 #FFFFFF
-accent buton #2196F3
-primary-bnt-color #FFFFFF
-background-color #2F303A
-background-color-first-secrion #2F303A
-second-color #757575
-background-color-third-secrion #F5F4FA*/
-
-/*footer color
-color webstudio #FFFFFF
-color accent webstudio #2196F3
-color email tel #FFFFFF
-/*----color----
-background: #E5E5E5;*/
 .header {
   background-color: #ffffff;
 }
