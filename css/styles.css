@@ -5,6 +5,11 @@
   --accent-color: #2196f3;
   --primary-btn-color: #ffffff;
   --background-btn-color: #2196f3;
+  --accent-bnt-color: #188ce8;
+  --background-main-color: #2f303a;
+  --main-title-color: #ffffff;
+  --section-team-color: #f5f4fa;
+  --footer-tel-color: #d9d9d9;
 }
 body {
   background-color: var(--background-color);
@@ -32,7 +37,7 @@ body {
   overflow: hidden;
 }
 .header {
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 .header-web {
   font-family: 'Raleway';
@@ -57,7 +62,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .header-item:hover,
 .header-item:focus {
@@ -83,8 +88,9 @@ body {
 .header-tel:focus {
   color: var(--accent-color);
 }
-.main {
-  background-color: #2f303a;
+.main,
+.footer {
+  background-color: var(--background-main-color);
 }
 .main-title {
   font-weight: 900;
@@ -93,7 +99,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-title-color);
 }
 .main-btn {
   background: var(--background-btn-color);
@@ -113,8 +119,7 @@ body {
 }
 .main-btn:hover,
 .main-btn:focus {
-  background-color: var(--background-color);
-  color: var(--accent-color);
+  background-color: var(--accent-bnt-color);
 }
 .pointer {
   cursor: pointer;
@@ -135,7 +140,7 @@ body {
   color: var(--primary-text-color);
 }
 .section-team {
-  background-color: #f5f4fa;
+  background-color: var(--section-team-color);
 }
 .title {
   font-weight: 700;
@@ -160,9 +165,16 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+.tel {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-tel-color);
+}
 /* button potfolio*/
 .button-list {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .button-item {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -203,9 +215,6 @@ body {
   color: var(--primary-text-color);
 }
 /*footer*/
-.footer {
-  background-color: #2f303a;
-}
 .footer-web {
   font-weight: 700;
   font-size: 26px;
@@ -218,26 +227,20 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--main-title-color);
 }
 .footer-text {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--main-title-color);
 }
-.footer-email {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
+.footer-email,
 .footer-tel {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #d9d9d9;
+  color: rgba(255, 255, 255, 0.6);
 }
