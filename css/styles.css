@@ -120,7 +120,7 @@ background: #E5E5E5;*/
   background: var(--background-btn-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -190,7 +190,7 @@ background: #E5E5E5;*/
   border-radius: 4px;
   background-color: #f5f4fa;
   border: 0;
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal;
   font-size: 16px;
   line-height: 1.62;
