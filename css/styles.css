@@ -137,6 +137,9 @@ background: #E5E5E5;*/
   background-color: var(--background-color);
   color: var(--accent-color);
 }
+.pointer {
+  cursor: pointer;
+}
 /* секции*/
 .section-title {
   font-weight: 700;
