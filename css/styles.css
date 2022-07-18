@@ -15,8 +15,6 @@ body {
   background-color: var(--background-color);
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
 }
 .list {
   list-style: none;
@@ -64,13 +62,16 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
+.header-item.current,
 .header-item:hover,
-.header-item:focus {
+.header-item:focus,
+.header-email:hover,
+.header-email:focus,
+.header-tel:hover,
+.header-tel:focus {
   color: var(--accent-color);
 }
-.header-item.current {
-  color: var(--accent-color);
-}
+
 .header-email,
 .header-tel {
   font-style: normal;
@@ -80,14 +81,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.header-email:hover,
-.header-email:focus {
-  color: var(--accent-color);
-}
-.header-tel:hover,
-.header-tel:focus {
-  color: var(--accent-color);
-}
+
 .main,
 .footer {
   background-color: var(--background-main-color);
@@ -106,7 +100,6 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-family: inherit;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -116,16 +109,15 @@ body {
   letter-spacing: 0.06em;
   color: var(--primary-btn-color);
   border: 0;
+  cursor: pointer;
 }
 .main-btn:hover,
 .main-btn:focus {
   background-color: var(--accent-bnt-color);
 }
-.pointer {
-  cursor: pointer;
-}
+
 /* секции*/
-.section-title {
+.item-subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
